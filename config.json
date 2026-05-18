@@ -1,4 +1,11 @@
 {
+  "total_cash": 100000,        // 比如你目前落袋为安后的总可用现金
+  "current_positions": {       // 如果有底仓就写在这，现在空仓就写空
+    "002409": {
+      "shares": 0,
+      "cost_price": 0.0
+    }
+  },
   "portfolio": ["002409", "600552"],
   "risk_management": {
     "max_single_position_pct": 30,
