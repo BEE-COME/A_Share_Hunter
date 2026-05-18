@@ -1,0 +1,13 @@
+{
+  "portfolio": ["002409", "600552"],
+  "risk_management": {
+    "max_single_position_pct": 30,
+    "hard_stop_loss_pct": 8,
+    "max_consecutive_losses_limit": 3
+  },
+  "alert": {
+    "webhook_url": "https://oapi.dingtalk.com/robot/send?access_token=YOUR_TOKEN_HERE",
+    "webhook_type": "dingtalk",
+    "poll_interval_sec": 60
+  }
+}
